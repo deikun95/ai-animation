@@ -1,0 +1,124 @@
+.body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .map {
+    position: relative;
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+    // background-color: #000;
+    // &:hover{
+    //     .one {
+    //         top: 0;
+    //         left: 0; 
+    //         transform: rotate(0deg)
+    //       }
+    //       .two {
+    //         top: 0;
+    //         left: 201px;
+    //         transform: rotate(0deg)
+    //       }
+    //       .three {
+    //         top: 0;
+    //         left: 402px;
+    //         transform: rotate(0deg)
+    //       }
+    //       .four {
+    //         top: 0;
+    //         left: 402px;
+    //         transform: rotate(0deg)
+    //       }
+    //       .five {
+    //         top: 0;
+    //         left: 402px;
+    //         transform: rotate(0deg)
+    //       }
+    //       .six {
+    //         top: 201px;
+    //         left: 402px;
+    //         transform: rotate(0deg)
+    //       }
+    //       .seven {
+    //         top: 402px;
+    //         left: 0;
+    //         transform: rotate(0deg)
+    //       }
+    //       .eight {
+    //         top: 402px;
+    //         left: 201px;
+    //         transform: rotate(0deg)
+    //       }
+    //       .nine {
+    //         top: 402px;
+    //         left: 402px;
+    //         transform: rotate(0deg)
+    //       }
+    // }
+    &__piece {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      background-color: #ccc;
+      border: 1px solid black;
+      border-collapse: collapse;
+      transition: all ease 2s;
+    }
+  }
+  .one {
+    top: -50px;
+    left: -150px; 
+    transform: rotate(6.02deg);
+  }
+  .two {
+    top: -160px;
+    left: 201px;
+    transform: rotate(16.02deg);
+  }
+  .three {
+    top: -130px;
+    left: 605px;
+    transform: rotate(-6.02deg);
+  }
+  .four {
+    top: 201px;
+    left: 150px;
+    transform: rotate(32.02deg);
+  }
+  .five {
+    top: 130px;
+    left: 450px;
+    transform: rotate(12.02deg);
+  }
+  .six {
+    top: 350px;
+    left: 540px;
+    transform: rotate(78.02deg);
+  }
+  .seven {
+    top: 500px;
+    left: -200px;
+    transform: rotate(27.02deg);
+  }
+  .eight {
+    top: 600px;
+    left: 100px;
+    transform: rotate(35.02deg);
+  }
+  .nine {
+    top: 700px;
+    left: 650px;
+    transform: rotate(17.02deg);
+  }
+  
