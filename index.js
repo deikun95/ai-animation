@@ -99,8 +99,6 @@ const transformedPieces = {
 };
 
 const mounted = () => {
-  // btn.addEventListener("mouseover", () => {
-
   const piecesStyles = Object.values(pieces);
   Object.keys(pieces).forEach((item, index) => {
     let itemPiece = document.querySelector(`.${item}`);
@@ -108,8 +106,6 @@ const mounted = () => {
     itemPiece.style.transform = "rotate(0deg)";
   });
   isTransformed = false;
-
-  // });
 };
 btn.addEventListener("click", () => {
   if (!isTransformed) {
